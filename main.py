@@ -47,6 +47,7 @@ class HLabel(IntEnum):
 class HandRecog:
 
     def __init__(self, hand_label):
+        print ("Editando desde github")
         self.finger = 0
         self.ori_gesture = Gest.PALM
         self.prev_gesture = Gest.PALM
